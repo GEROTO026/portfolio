@@ -55,7 +55,7 @@ const ProjectsSection = () => {
     {
       title: "AI Tools Directory",
       description: "AI tools directory with different categories to filter.",
-      tags: ["Next.js", "AI Integration", "MongoDB"],
+      tags: ["HTML", "AI", "CSS"],
       imageUrl: "https://i.ibb.co/5m8t0tJ/Captura-de-pantalla-2025-05-09-160422.png",
       liveUrl: "https://the-best-ais-for-everything-project7.netlify.app/",
       codeUrl: "https://github.com/GEROTO026/Project-7-The-Best-AIs-for-Everything"
