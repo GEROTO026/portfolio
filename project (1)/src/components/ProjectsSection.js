@@ -1,11 +1,12 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 
+// /components/ProjectsSection.js
 const ProjectsSection = () => {
   const projects = [
     {
       title: "Interactive Dashboard",
-      description: "Control panel with real-time data visualization and interactive charts.",
+      description: "Control panel with data visualization and interactive charts.",
       tags: ["JavaScript", "Chart.js", "API"],
       imageUrl: "https://i.ibb.co/7tRM1kcS/Captura-de-pantalla-2025-05-09-161504.png",
       liveUrl: "https://dashboard-interactive1project.netlify.app/",
@@ -13,24 +14,24 @@ const ProjectsSection = () => {
     },
     {
       title: "Advanced To-Do List",
-      description: "Task application with data persistence, filters and dark mode.",
-      tags: ["React", "LocalStorage", "TailwindCSS"],
+      description: "Task application with data persistence.",
+      tags: ["HTML", "LocalStorage", "CSS"],
       imageUrl: "https://i.ibb.co/n80Qqb7w/Captura-de-pantalla-2025-05-09-161101.png",
       liveUrl: "https://to-do-list2project.netlify.app/",
       codeUrl: "https://github.com/GEROTO026/Project-2-To-Do-List"
     },
     {
       title: "NTX LP Clone",
-      description: "Modern landing page with fluid animations and responsive design.",
-      tags: ["HTML5", "CSS3", "GSAP"],
+      description: "Modern landing page with responsive design (Netflix).",
+      tags: ["HTML", "CSS"],
       imageUrl: "https://i.ibb.co/5h4nn9QM/Captura-de-pantalla-2025-05-09-160617.png",
       liveUrl: "https://ntx-lp-clone3project.netlify.app/",
       codeUrl: "https://github.com/GEROTO026/Project-3-Netflix-Clone"
     },
     {
       title: "Online Clothing Store",
-      description: "Complete e-commerce with shopping cart and simulated payment gateway.",
-      tags: ["React", "Context API", "Firebase"],
+      description: "Complete e-commerce with shopping cart.",
+      tags: ["React", "HTML", "TailwindCSS"],
       imageUrl: "https://i.ibb.co/rfm2t577/Captura-de-pantalla-2025-05-12-184242.png",
       liveUrl: "https://fashionmxmodernclothingstore.netlify.app/",
       codeUrl: "https://github.com/GEROTO026/Project-4-Clothing-store-2.0"
@@ -38,22 +39,22 @@ const ProjectsSection = () => {
     {
       title: "Scientific Calculator",
       description: "Calculator with advanced functions and scientific mode for complex calculations.",
-      tags: ["JavaScript", "Algorithms", "UX"],
+      tags: ["JavaScript", "CSS", "UX"],
       imageUrl: "https://i.ibb.co/VW9w9Rzz/Captura-de-pantalla-2025-03-09-001246.png",
       liveUrl: "https://scientific-calculator-project5.netlify.app/",
       codeUrl: "https://github.com/GEROTO026/Project-5-Scientific-Calculator"
     },
     {
-      title: "Tic-Tac-Toe Multiplayer",
-      description: "Classic game with online multiplayer mode and interactive board.",
-      tags: ["Socket.io", "Game Dev", "React"],
+      title: "Tic-Tac-Toe",
+      description: "Classic game with interactive board.",
+      tags: ["CSS", "Game Dev", "JavaScript"],
       imageUrl: "https://i.ibb.co/RTdfF6KB/Captura-de-pantalla-2025-03-09-001336.png",
       liveUrl: "https://project-6-tic-toc-toe.netlify.app/",
       codeUrl: "https://github.com/GEROTO026/Project-6-Tic-Tac-Toe"
     },
     {
       title: "AI Tools Directory",
-      description: "AI tools directory with advanced filters and voting system.",
+      description: "AI tools directory with different categories to filter.",
       tags: ["Next.js", "AI Integration", "MongoDB"],
       imageUrl: "https://i.ibb.co/5m8t0tJ/Captura-de-pantalla-2025-05-09-160422.png",
       liveUrl: "https://the-best-ais-for-everything-project7.netlify.app/",

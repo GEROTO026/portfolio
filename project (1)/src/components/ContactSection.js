@@ -24,7 +24,7 @@ const ContactSection = () => {
     setSubmitError(false);
 
     try {
-      const response = await fetch('https://formsubmit.co/ajax/your-email@example.com', {
+      const response = await fetch('https://formsubmit.co/ajax/geropaye@gmail.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
