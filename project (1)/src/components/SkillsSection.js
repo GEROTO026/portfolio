@@ -1,11 +1,11 @@
 const SkillsSection = () => {
   const skills = [
-    { name: "HTML5", level: 95 },
-    { name: "CSS3", level: 90 },
-    { name: "JavaScript", level: 85 },
-    { name: "React", level: 80 },
-    { name: "UI/UX Design", level: 75 },
-    { name: "Responsive Design", level: 90 }
+    { name: "HTML5", logo: "https://cdn-icons-png.flaticon.com/512/174/174854.png" },
+    { name: "CSS3", logo: "https://cdn-icons-png.flaticon.com/512/732/732190.png" },
+    { name: "JavaScript", logo: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png" },
+    { name: "React", logo: "https://cdn-icons-png.flaticon.com/512/1260/1260667.png" },
+    { name: "UI/UX Design", logo: "https://cdn-icons-png.flaticon.com/512/5527/5527656.png" },
+    { name: "Responsive Design", logo: "https://cdn-icons-png.flaticon.com/512/3242/3242257.png" }
   ];
 
   return (
@@ -15,19 +15,17 @@ const SkillsSection = () => {
           My <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Skills</span>
         </h2>
         
-        <div className="max-w-2xl mx-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-8">
           {skills.map((skill, index) => (
-            <div key={index} className="mb-6">
-              <div className="flex justify-between mb-1">
-                <span className="font-medium">{skill.name}</span>
-                <span>{skill.level}%</span>
+            <div key={index} className="flex flex-col items-center group">
+              <div className="w-20 h-20 p-4 bg-white rounded-xl shadow-md flex items-center justify-center transition-all duration-300 group-hover:shadow-lg group-hover:-translate-y-1">
+                <img 
+                  src={skill.logo} 
+                  alt={skill.name}
+                  className="h-12 w-12 object-contain"
+                />
               </div>
-              <div className="w-full bg-gray-200 rounded-full h-2.5">
-                <div 
-                  className="bg-gradient-to-r from-blue-500 to-purple-600 h-2.5 rounded-full" 
-                  style={{ width: `${skill.level}%` }}
-                ></div>
-              </div>
+              <span className="mt-3 font-medium text-gray-700">{skill.name}</span>
             </div>
           ))}
         </div>
@@ -37,3 +35,5 @@ const SkillsSection = () => {
 };
 
 export default SkillsSection;
+
+// DONE
